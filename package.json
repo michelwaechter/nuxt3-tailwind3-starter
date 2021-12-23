@@ -1,14 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
+    "dev": "nuxi dev & yarn tailwind-config-viewer -o -p 3001",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "tailwind-config-viewer": "tailwind-config-viewer -o"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "nuxt3": "latest",
     "postcss": "^8.4.5",
+    "tailwind-config-viewer": "^1.6.3",
     "tailwindcss": "^3.0.7"
   }
 }
