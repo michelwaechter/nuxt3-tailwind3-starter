@@ -36,3 +36,8 @@ yarn build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
